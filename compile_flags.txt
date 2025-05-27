@@ -1,0 +1,17 @@
+-Wall 
+-Wextra 
+-Iinclude 
+-g 
+-o main main.c src/flecs.c 
+-Llib 
+-l:libraylib.a 
+-lfmod 
+-lfmodstudio 
+-lglfw 
+-lGL 
+-lm 
+-lpthread 
+-ldl 
+-lrt 
+-lX11 
+-Wl,-rpath,"\$ORIGIN/lib"
