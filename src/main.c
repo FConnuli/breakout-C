@@ -394,6 +394,7 @@ void* scene_title_screen() {
         // Draw
         //----------------------------------------------------------------------------------
         BeginDrawing();
+            DrawText("Press Space to continue", 20, 22, 30, GREEN);
         
             ClearBackground(CLITERAL(Color) {160, 0, 0, 255});
             
